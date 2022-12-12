@@ -13,5 +13,6 @@ namespace AdapterPattern_01
             Console.WriteLine("But with adapter client can call it's method.");
 
             Console.WriteLine(target.GetRequest());
+        }
     }
 }
