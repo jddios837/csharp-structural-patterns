@@ -1,4 +1,5 @@
 ﻿using System;
+using Facade_Pattern_01.Library;
 
 namespace Facade_Pattern_01
 {
@@ -6,7 +7,12 @@ namespace Facade_Pattern_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SubSystem1 subsystem1 = new();
+            SubSystem2 subsystem2 = new();
+
+            Facade facade = new(subsystem1, subsystem2);
+            
+            Client.ClientCode(facade);
         }
     }
 }
