@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-Pattern-01", "Facade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{9DEECC29-59AE-4253-87C2-CF1FDE7BAE21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionExample-01", "DependencyInjectionExample-01\DependencyInjectionExample-01.csproj", "{5E062A80-CAE3-40D5-B12D-AEDCD454DB28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{9DEECC29-59AE-4253-87C2-CF1FDE7BAE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DEECC29-59AE-4253-87C2-CF1FDE7BAE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DEECC29-59AE-4253-87C2-CF1FDE7BAE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E062A80-CAE3-40D5-B12D-AEDCD454DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E062A80-CAE3-40D5-B12D-AEDCD454DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E062A80-CAE3-40D5-B12D-AEDCD454DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E062A80-CAE3-40D5-B12D-AEDCD454DB28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
